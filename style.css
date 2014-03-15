@@ -1,0 +1,349 @@
+@charset "utf-8";
+/* CSS Document */
+
+body { padding: 0; margin: 0; background:url(images/bg.jpg) no-repeat #cbd9ab top center; background-size: contain;}
+
+.style1 { font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #478817; font-size: 14px;}
+.style2 { font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #153947; font-size: 14px;}
+.style2 a { font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #153947; font-size: 14px; text-decoration:none;}
+
+.style3 { font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #000000; font-size: 35px; font-weight: bold; letter-spacing: -1px;}
+.style4 { font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #448215; font-size: 35px; font-weight: bold;}
+.style5 { font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #000000; font-size: 19px;}
+.style6 { font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #000000; font-size: 20px; font-weight: bold;}
+.style6 a{ font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #5e391c; font-size: 20px; font-weight: bold; text-decoration:none;}
+.style7 { font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #448215; font-size: 20px; font-weight: bold;}
+
+.style8 { font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #000000; font-size: 14px;}
+.style8 a{ font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #153947; font-size: 14px; text-decoration:underline;}
+.style9 { font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #000000; font-size: 16px; font-weight: bold;}
+
+
+.style10 { font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #000000; font-size: 25px; font-weight: bold;}
+.style11 { font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #DADADA; font-size: 13px;}
+.style11 a{ font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #DADADA; font-size: 13px; padding-left: 10px; padding-right: 10px; text-decoration:none;}
+
+.style12 { font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #000000; font-size: 14px;  }
+.style12 a{ font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #5399e0; font-size: 14px;  font-style: italic; text-decoration: underline;}
+
+.style13 { font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #468616; font-size: 20px; font-weight: bold;}
+
+.style14 { font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #000000; font-size: 14px; line-height: 25px;}
+.style14 a{ font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #2b85da; font-size: 14px; text-decoration:none; line-height: 25px;}
+.style15 { font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #468616; font-size: 17px; font-weight: bold;}
+.style16 { font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #5e391c; font-size: 17px; font-weight: bold;}
+.style17 { font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #000000; font-size: 17px; font-weight: bold;}
+.style18 { font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #000000; font-size: 14px; text-decoration:none;  line-height: 25px; }
+.style18 a{ font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #468616; font-size: 14px; text-decoration:none; line-height: 25px; font-weight: bold;}
+
+.style19 { font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #000000; font-size: 14px; line-height: 30px;}
+.style19 a{ font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #2b85da; font-size: 14px; text-decoration:none; line-height: 40px;}
+
+.style20 { font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #000000; font-size: 14px; line-height: 46px;}
+.style21 { font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #000000; font-size: 14px; line-height: 64px;}
+.style22 { font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #000000; font-size: 14px; line-height: 55px;}
+.style23 { font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #000000; font-size: 12px; line-height: 45px;}
+
+.style24 { font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #FFFBD2; font-size: 35px; font-weight: bold;}
+.style25 { font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #000000; font-size: 16px; }
+.style26 { font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #000000; font-size: 14px; }
+
+.style27 { font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #000000; font-size: 14px; line-height: 25px;}
+.style28 { font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #000000; font-size: 14px; line-height: 37px;}
+.style29 { font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #448215; font-size: 25px; font-weight: bold;}
+.style30 { font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #727458; font-size: 14px; font-style: italic;}
+
+.style31 { font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #3e7912; font-size: 14px; line-height: 25px;}
+.style32 { font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #0043cb; font-size: 14px;}
+.style32 a{ font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #0043cb; text-decoration:none;}
+.style33 { font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #000000; font-size: 24px; }
+
+.wiser-list { list-style:inside; margin-left: 20px;}
+
+.container { width: 960px; height: auto; margin: auto; }
+.header { width: 960px; height: 118px; margin: auto;}
+.logo { float: left; width: 595px; height: 106px; background:url(images/logo.png) no-repeat;}
+.login { width: 250px; height: auto; float: right; text-align: right;}
+.nav {  behavior: url(/border-radius.htc); background:url(images/nav.jpg) repeat-x; position: relative; z-index: 100;}
+.nav ul { margin:0; padding: 0; height: 55px; }
+.nav ul li { float: left; list-style: none; padding-top: 15px; padding-bottom: 15px;}
+.nav ul li a { font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #dadada; font-size: 18px; text-decoration: none; padding-top: 15px; padding-bottom: 17px; padding-left: 30px; padding-right: 30px; background:url(images/separator.jpg) no-repeat right;}
+.nav ul li a:hover { font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #663916; font-size: 18px; background:url(images/nav-hover.jpg) repeat-x; }
+
+.nav ul .list { float: left; list-style: none; padding-top: 15px; padding-bottom: 15px;}
+.nav ul .list a { font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #dadada; font-size: 18px; text-decoration: none; padding-top: 15px; padding-bottom: 20px;padding-left: 37px; padding-right: 30px;  background:url(images/separator.png) no-repeat right;}
+.nav ul .list a:hover { font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #663916; font-size: 18px; background:url(images/hover.jpg) repeat-x;  -moz-border-radius: 15px 15px 0 0;    -webkit-border-radius: 15px 15px 0 0;    -khtml-border-radius:15px 15px 0 0;
+    border-radius:15px 0px 0 0; behavior: url(/border-radius.htc);}
+	
+.nav ul .list2 { float: left; list-style: none; padding-top: 15px; padding-bottom: 15px;}
+.nav ul .list2 a { font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #dadada; font-size: 18px; text-decoration: none; padding-top: 15px; padding-bottom: 20px;padding-left: 39px; padding-right: 29px; }
+.nav ul .list2 a:hover { font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #663916; font-size: 18px; background:url(images/hover.jpg) repeat-x;  -moz-border-radius: 15px 15px 0 0;    -webkit-border-radius: 15px 15px 0 0;    -khtml-border-radius:15px 15px 0 0;
+    border-radius: 0px 15px 0 0; behavior: url(/border-radius.htc);}	
+
+.content { width: 920px; background: #ffffff; box-shadow: inset 0 0 10px #ccc;    -moz-box-shadow: inset 0 0 10px #ccc;    -webkit-box-shadow: inset 0 0 10px #ccc;    -khtml-box-shadow: inset 0 0 10px #ccc; -moz-box-shadow: 0px 0px 10px #444;	-webkit-box-shadow: 0px 0px 10px #444;	box-shadow: 0px 0px 10px #444;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#444444')";	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#444444');  position: relative; z-index: 1; margin-top: -30px; padding-top: 50px; padding-left: 20px; padding-right: 20px; padding-bottom: 20px; behavior: url(/border-radius.htc); -moz-border-radius: 10px; -webkit-border-radius: 10px; -khtml-border-radius: 10px;    border-radius: 10px;}
+
+
+
+
+.nav2, #tab-container-1  { background:url(images/nav2.jpg) repeat-x; width: 500px; height:33px; position:relative; z-index: 100;;}
+.nav2 ul, #tab-container-1  ul {margin:0; padding: 0; height: 30px;}
+.nav2 ul li , #tab-container-1  ul li{ float: left; list-style: none; padding-top: 4px; padding-bottom: 9px;}
+.nav2 ul li a, #tab-container-1  ul li a {  font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #d2ecc0; font-size: 14px; text-decoration: none; padding-top: 6px; padding-bottom: 9px; padding-left: 14px; padding-right: 14px; background:url(images/separator2.png) no-repeat right;}
+/*.nav2 ul li a:hover, #tab-container-1  ul li a:hover { font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #663916; font-size: 14px; background:url(images/hover2.jpg) repeat-x; }*/
+.nav2 ul li a:hover, #tab-container-1  ul li a:hover, #tab-container-1 ul li a.current, #tab-container-1 ul li.activeli a{ font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #663916; font-size: 14px; background:url(images/hover2.jpg) repeat-x; padding-bottom: 10px; padding-top: 7px;}
+
+.nav3 { background:url(images/nav2.jpg) repeat-x; width: 528px; height:33px; position: relative; z-index: 100;}
+.nav3 ul { margin:0; padding: 0; height: 30px; }
+.nav3 ul li { float: left; list-style: none; padding-top: 4px; padding-bottom: 9px;}
+.nav3 ul li a {  font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #d2ecc0; font-size: 14px; text-decoration: none; padding-top: 6px; padding-bottom: 9px; padding-left: 14px; padding-right: 14px; background:url(images/separator2.png) no-repeat right;}
+.nav3 ul li a:hover { font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #663916; font-size: 14px; background:url(images/hover2.jpg) repeat-x; }
+
+
+.proj-admin-nav {  background:url(images/nav2.jpg) repeat-x; width: 320px; height:33px; position: relative; z-index: 100;}
+.proj-admin-nav ul { margin:0; padding: 0; height: 30px;  }
+.proj-admin-nav ul li { float: left; list-style: none; padding-top: 4px; padding-bottom: 9px;}
+.proj-admin-nav ul li a { font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #d2ecc0; font-size: 14px; text-decoration: none; padding-top: 6px; padding-bottom: 9px; padding-left: 14px; padding-right:
+14px; background:url(images/separator2.png) no-repeat right;}
+.proj-admin-nav ul li a:hover { font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #663916; font-size: 14px; background:url(images/hover2.jpg) repeat-x; }
+
+.line { background: url(images/line.jpg) repeat-x; width: auto; height: 9px;}
+
+
+.left { width: 610px; height: auto; float: left;}
+.left2 { width: 590px; height: auto; float: left;}
+.right { width: 260px; height: auto; float: right;}
+.right2 { width: 320px; height: auto; float: left; margin-left: 10px;}
+.box { background: #ffffff; padding: 10px; margin-bottom: 20px;}
+.box2{ background: #ffffff; margin-bottom: 20px;}
+
+.thumb-pic { float: left; margin-right: 10px; margin-bottom: 10px;}
+img { border: none;}
+.shadow {  width: 905px; height: 24px;}
+.footer { background:url(images/nav.jpg) repeat-x; width: auto; height: 15px; padding: 20px;  margin-bottom: 20px;}
+
+.mystuff-profile { background:url(images/mystuff-profile-box.jpg) no-repeat; width: 128px; height: 154px; float: right; padding-top: 10px;  text-align:center;}
+.mystuff-profile span {font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #fff6eb; font-size: 14px;}
+
+
+
+.clear { clear:both;}
+
+
+
+
+/*   CONFIRM PAGE ------------------------------------------------------------  */
+
+.button a{ height: 27px; padding: 10px; background:url(images/button.jpg) repeat-x; font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; font-size: 18px; font-weight: bold; color: #fffbd2; text-decoration:none; behavior: url(/border-radius.htc); -moz-border-radius: 10px; -webkit-border-radius: 10px; -khtml-border-radius: 10px;    border-radius: 10px; }
+
+
+/*  ADD PROJECT TEAM ------------------------------------------------------------  */
+.button2 { margin-bottom: 10px;}
+
+
+.button2 a{padding-left: 20px; padding-right: 20px; padding-top: 5px; padding-bottom: 5px; background:url(images/button.jpg) repeat-x; font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; font-size: 14px;font-weight: normal; color: #ffffff; text-decoration:none; behavior: url(/border-radius.htc); -moz-border-radius: 25px; -webkit-border-radius: 25px; -khtml-border-radius: 25px; text-transform:capitalize;    border-radius: 25px; text-decoration: none; border: none;}
+
+.button2 a:hover { background: #4d9418;}
+
+
+/*  USER REGISTRATION ------------------------------------------------------------  */
+
+.input { height: 22px; width: 400px; box-shadow: inset 0 0 10px #ccc;    -moz-box-shadow: inset 0 0 10px #ccc;    -webkit-box-shadow: inset 0 0 10px #ccc;    -khtml-box-shadow: inset 0 0 10px #ccc; background: transparent; border: 1px solid #bababa; margin-bottom: 12px; padding: 5px;}
+
+.input2 {
+	border-radius: 0px !important;
+    background: none repeat scroll 0 0 transparent;
+    border: 1px solid #BABABA;
+    height: 22px;
+    margin-bottom: 12px;
+    padding: 5px;
+    width: 200px;
+	color: #000000;
+    font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+	font-weight: normal;
+	text-align: right;
+}
+
+.input3 {
+	height: 30px; width: 200px; box-shadow: inset 0 0 10px #ccc;    -moz-box-shadow: inset 0 0 10px #ccc;    -webkit-box-shadow: inset 0 0 10px #ccc;    -khtml-box-shadow: inset 0 0 10px #ccc; background: transparent; border: 1px solid #bababa; margin-bottom: 12px; padding: 5px;
+}
+
+.input4 {
+	height: 50px; width: 785px; box-shadow: inset 0 0 10px #ccc;    -moz-box-shadow: inset 0 0 10px #ccc;    -webkit-box-shadow: inset 0 0 10px #ccc;    -khtml-box-shadow: inset 0 0 10px #ccc; background: transparent; border: 1px solid #bababa; margin-bottom: 12px; padding: 5px;
+}
+
+.input5 {padding: 10px; background:url(images/button5.jpg) repeat-x; font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; font-size: 18px; font-weight: bold; color: #fffbd2; text-decoration:none; behavior: url(/border-radius.htc); -moz-border-radius: 10px; -webkit-border-radius: 10px; -khtml-border-radius: 10px;    border-radius: 10px; text-decoration: none;}
+
+/*input[type="submit"]  {padding: 10px; background:url(images/button.jpg) repeat-x; font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; font-size: 14px; *font-weight: bold; color: #fffbd2; text-decoration:none; behavior: url(/border-radius.htc); -moz-border-radius: 10px; -webkit-border-radius: 10px; -khtml-border-radius: 10px;    border-radius: 10px; text-decoration: none;}*/
+input[type="submit"] {padding-left: 20px; padding-right: 20px; padding-top: 5px; padding-bottom: 5px; background:url(images/button.jpg) repeat-x; font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; font-size: 14px; font-weight: normal; color: #ffffff; text-decoration:none; behavior: url(/border-radius.htc); -moz-border-radius: 25px; -webkit-border-radius: 25px; -khtml-border-radius: 25px; text-transform:capitalize;    border-radius: 25px; text-decoration: none; border: none;  margin: 0 5px;}
+input :hover { background: #4d9418;}
+#input {color: #000000;    font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif;    font-size: 14px; font-weight: normal;}
+
+.user-profile { border: 10px solid #ebebeb; }
+.button3 {  margin-bottom: 30px;}
+.button3:hover{ background: #4d9418; }
+.button3 a{ height: 17px; padding: 5px 10px 5px 10px; background:url(images/button2.jpg) repeat-x; font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; font-size: 14px;  color: #fffbd2; text-decoration:none; behavior: url(/border-radius.htc); -moz-border-radius: 10px; -webkit-border-radius: 10px; -khtml-border-radius: 10px;    border-radius: 10px; }
+
+
+/*  Manage Users ------------------------------------------------------------  */
+
+.manage-pic { height: 60px; margin-bottom: 5px;}
+
+/*  List Items ------------------------------------------------------------  */
+
+.list-pic { height: 60px; margin-bottom: 5px;}
+.list3 {}
+.list3 li { list-style:inside circle; margin-left: 40px;}
+
+/*  Beta Earth Deeds ------------------------------------------------------------  */
+
+
+.beta-box { width: 210px; height: 270px; float: left; margin-left: 5px; margin-right: 5px; margin-top: 20px; margin-bottom: 20px; background:url(images/box-bg.jpg) no-repeat right; text-align: center; padding-right: 10px;}
+.beta-box img{ border: 3px solid #ffffff; -moz-box-shadow: 0px 0px 5px #a3a3a3;	-webkit-box-shadow: 0px 0px 5px #a3a3a3;	box-shadow: 0px 0px 5px #a3a3a3;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#444444')";	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#a3a3a3'); }
+
+.beta-button { background:url(images/button3.jpg) repeat-x; padding: 5px; width: 50px; height: 14px; border: 1px solid #77b34a; text-align: center; float: right;}	
+.beta-button span a{ font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #ffffff; font-size: 12px; text-decoration:none; }	
+.beta-middle-box { float: left; width: 440px; margin-left: 10px; margin-right: 10px; text-align:center; margin-bottom: 20px;}
+.button4 { width: 200px;  background:url(images/button4.jpg) repeat-x; height: 40px;  behavior: url(/border-radius.htc); -moz-border-radius: 10px; -webkit-border-radius: 10px; -khtml-border-radius: 10px;    border-radius: 10px; padding-top: 10px; margin: auto; text-align: center;}
+.button4 a{ font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; font-size: 25px; font-weight: bold; color: #fffbd2; text-decoration:none;}
+.video { background:url(images/video.jpg) no-repeat; width: 336px; height: 212px; margin: auto; padding-left: 20px; padding-top: 12px; }
+.shadow2 { background:url(images/shadow2.jpg) no-repeat; margin: auto; width: 856px; height: 30px;}
+
+/*  Search ------------------------------------------------------------  */
+
+
+.right3 { width: 610px; height: auto; float: right;}
+.left3 { width: 260px; height: auto; float: left;}
+.input-search { height: 22px; width: 220px; box-shadow: inset 0 0 10px #ccc;    -moz-box-shadow: inset 0 0 10px #ccc;    -webkit-box-shadow: inset 0 0 10px #ccc;    -khtml-box-shadow: inset 0 0 10px #ccc; background: transparent; border: 1px solid #bababa; margin-bottom: 0px; padding: 5px; color: #252525; font-weight: normal; font-size: 16px;}
+
+.input-search2 { height: 32px; width: 230px; box-shadow: inset 0 0 10px #ccc;    -moz-box-shadow: inset 0 0 10px #ccc;    -webkit-box-shadow: inset 0 0 10px #ccc;    -khtml-box-shadow: inset 0 0 10px #ccc; background: transparent; border: 1px solid #bababa; margin-bottom: 0px; padding: 5px;}
+.left-search { float: left; width: 90px; margin-right: 20px; height: auto;}
+.left-search img { -moz-box-shadow: 0px 0px 10px #bababa;	-webkit-box-shadow: 0px 0px 10px #bababa;	box-shadow: 0px 0px 10px #bababa;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#bababa')";	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#bababa'); border: 5px solid #ffffff;}
+.right-search { float: left; width: 560px; margin-right: 70px; height: auto;}
+.wiser-box { background: #f7f7f7; padding: 10px; margin-bottom: 10px;}
+
+
+/*  Measures ------------------------------------------------------------  */
+
+.input2 { height: 15px; width: 100px; box-shadow: inset 0 0 10px #ccc;    -moz-box-shadow: inset 0 0 10px #ccc;    -webkit-box-shadow: inset 0 0 10px #ccc;    -khtml-box-shadow: inset 0 0 10px #ccc; background: transparent; border: 1px solid #bababa; margin-bottom: 12px; padding: 5px;}
+
+.nav4 {  behavior: url(/border-radius.htc); background:url(images/nav2.jpg) repeat-x; width: 600px; height:33px; position: relative; z-index: 100;}
+.nav4 ul { margin:0; padding: 0; height: 33px;}
+.nav4 ul li { float: left; list-style: none; padding-top: 6px; padding-bottom: 6px;}
+.nav4 ul li a { font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #d2ecc0; font-size: 14px; text-decoration: none; padding-top: 6px; padding-bottom: 7px; padding-left: 14px; padding-right: 14px; background:url(images/separator2.png) no-repeat right;}
+.nav4 ul li a:hover { font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #663916; font-size: 14px; background:url(images/hover-measure.jpg) repeat-x; }
+
+.box3 { background: #ffffff; box-shadow: inset 0px 0px 10px 0px #ccc;    -moz-box-shadow: inset 0 0 0px #ccc;    -webkit-box-shadow: inset 0 0 0px #ccc;    -khtml-box-shadow: inset 0 0 0px #ccc;  behavior: url(/border-radius.htc); -moz-border-radius: 0px 0px 10px 10px; -webkit-border-radius:  0px 0px 10px 10px; -khtml-border-radius:  0px 0px 10px 10px;    border-radius:  0px 10px 10px 10px; padding: 10px; margin-bottom: 20px;}
+
+
+/*  Team ------------------------------------------------------------  */
+
+/*.box img {border: 5px solid #dedede;}*/
+.boxprofile {border: 5px solid #dedede;}
+.boxprofile  img{margin-left: -3px; margin-top: -3px;}
+.nav5 {  background:url(images/nav2.jpg) repeat-x; width: 240px; height:33px; position: relative; z-index: 100; }
+.nav5 ul { margin:0; padding: 0; height: 30px;  }
+.nav5 ul li { float: left; list-style: none; padding-top: 4px; padding-bottom: 9px;}
+.nav5 ul li a { font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #d2ecc0; font-size: 14px; text-decoration: none; padding-top: 6px; padding-bottom: 9px; padding-left: 14px; padding-right: 14px; background:url(images/separator2.png) no-repeat right;}
+.nav5 ul li a:hover { font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #663916; font-size: 14px; background:url(images/hover2.jpg) repeat-x; }
+
+
+
+
+/*  Projects ------------------------------------------------------------  */
+
+
+.nav6 {  background:url(images/nav2.jpg) repeat-x; width: 540px; height:33px; position: relative; z-index: 100;}
+.nav6 ul { margin:0; padding: 0; height: 30px; }
+.nav6 ul li { float: left; list-style: none; padding-top: 4px; padding-bottom: 9px;}
+.nav6 ul li a { font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #d2ecc0; font-size: 14px; text-decoration: none; padding-top: 6px; padding-bottom: 9px; padding-left: 14px; padding-right: 14px; 
+background:url(images/separator2.png) no-repeat right;}
+.nav6 ul li a:hover { font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #663916; font-size: 14px; background:url(images/hover2.jpg) repeat-x; }
+
+
+/*  Login ------------------------------------------------------------  */
+
+.nav7 {  behavior: url(/border-radius.htc); background:url(images/nav7.jpg) repeat-x; -moz-border-radius: 15px 15px 15px 15px; -webkit-border-radius:15px 15px 15px 15px; -khtml-border-radius:15px 15px 15px 15px;    border-radius:15px 15px 15px 15px; width: auto; height:55px; position: relative; z-index: 100;}
+.nav7 ul { margin:0; padding: 0; height: 55px; }
+.nav7 ul li { float: left; list-style: none; padding-top: 15px; padding-bottom: 15px;}
+.nav7 ul li a { font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #dadada; font-size: 18px; text-decoration: none; padding: 15px 27px 14px 30px; background:url(images/nav7-separator.jpg) no-repeat right;}
+.nav7 ul li a:hover { font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #663916; font-size: 18px; background:url(images/nav7-hover.jpg) repeat-x; }
+
+.nav7 ul .list { float: left; list-style: none; padding-top: 15px; padding-bottom: 15px;}
+.nav7 ul .list a { font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #dadada; font-size: 18px; text-decoration: none; padding: 15px 27px 14px 25px; background:url(images/nav7-separator.jpg) no-repeat right;}
+.nav7 ul .list a:hover { font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #663916; font-size: 18px; background:url(images/nav7-hover.jpg) repeat-x;  -moz-border-radius: 15px  15px 0 0 ;    -webkit-border-radius: 10px 10px 0 0;    -khtml-border-radius:15px 15px 0 0;
+    border-radius:8px  0 0 8px; behavior: url(/border-radius.htc); margin-top: 10px;}
+	
+.nav7 ul .list2 { float: right; list-style: none; padding-top: 15px; padding-bottom: 15px;}
+.nav7 ul .list2 a { font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #dadada; font-size: 18px; text-decoration: none; padding: 15px 25px 20px 19px; }
+.nav7 ul .list2 a:hover { font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #663916; font-size: 18px; background:url(images/nav7-hover.jpg) repeat-x;  -moz-border-radius: 15px 15px 0 0;    -webkit-border-radius: 15px  0 0 15px;    -khtml-border-radius:15px  0 0 15px;
+    border-radius:   0px 15px 15px 0  ; behavior: url(/border-radius.htc);}	
+	
+	    .menu li a:hover, .menu ul li:hover a{
+
+       background:url(images/nav-hover.jpg) repeat-x;
+                    color:#6D6D6D;
+        text-decoration:none;
+        }
+.menu li ul{
+    /*background:#333333;*/
+            /*background: #B32267;*/
+            background: white;
+    display:none;
+    height:auto;
+    padding:0px;
+    margin:15px 0 0 0;
+    border:0px;
+    position:absolute;
+    /*width: 225px;*/
+            width:190px;
+    z-index:200;
+    /*top:1em;
+    /*left:0;*/
+    }
+.menu li:hover ul{
+    display:block;
+
+    }
+.menu li li {
+    background:url(images/nav-hover.jpg) repeat-x;
+    display:block;
+    float:none;
+    margin:0px;
+    padding:10px 0px;
+            /*width: 225px;*/
+    width:190px;
+    }
+.menu li:hover li a{
+    background:none;
+
+    }
+.menu li ul a{
+    display:block;
+    height:26px;
+    font-size:13px;
+    font-style:normal;
+    margin:0px;
+    padding:0px 10px 0px 15px;
+    text-align:left;
+    }
+    .menu li ul a:hover, .menu li ul li:hover a{
+background:#ca9875 url('menu_images/hover_sub.gif') center left no-repeat;
+        border:0px;
+        color:#ffffff;
+        text-decoration:none;
+        }
+ 
+.menu ul li ul li { position: relative; }
+.menu ul li ul li ul, .menu ul li:hover ul li ul { display: none; }
+.menu ul li ul li:hover ul {
+    display: block;
+    position: absolute;
+    left: 100%;
+    top: 0;
+}
+.menu ul li ul li:hover ul li a { background: none; color: #6d6d6d; }
+.menu ul li ul li:hover ul li a:hover { background:#ca9875 url('menu_images/hover_sub.gif') center left no-repeat; color: #fff; }

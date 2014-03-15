@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+ol li {    background: url("imageshome/slidenav.png") no-repeat scroll center top;
+    padding: 3px 11px;
+    height: 30px;}
+ol li.active-marker {    background: url("imageshome/slidenav-active.png") no-repeat scroll center top;}
+body { padding: 0; margin: 0; background:url(imageshome/bg.jpg) #c9d7a8 no-repeat top center; }
+.clear { clear:both;}
+.style1 { font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #478817; font-size: 14px;}
+.style2 { font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #3b7b2e; font-size: 30px; font-weight: bold;}
+.style3 { font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #121212; font-size: 14px; line-height: 18px;}
+.style3 a{ font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #365b86; font-size: 14px; text-decoration: underline;}
+.style4 { font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #778b49; font-size: 14px;}
+.style5 { font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #38782e; font-size: 13px; font-weight: bold;}
+.style6 { font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #344831; font-size: 13px; }
+.style6 a{ font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #344831; font-size: 13px; text-decoration:underline; }
+.style7 { font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #344831; font-size: 12px; }
+.style7 a{ font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #0d3d7c; font-size: 12px;  }
+
+img { border: none;}
+.container { width: 960px; height: auto; margin: auto;}
+.header { width: 960px; margin: auto; height: auto;}
+.nav { background:url(imageshome/nav.jpg) repeat-x; width: 960px; height: 55px; width: auto;}
+.nav ul { padding:0; margin: 0; }
+.nav ul li { list-style: none; float: left; background:url(imageshome/separator.jpg) no-repeat right; height: 54px;} 
+.nav ul ri { list-style: none; float: right; background:url(imageshome/separator.jpg) no-repeat right; height: 54px;} 
+.nav ul ri span { font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #e7e7e7; font-size: 14px;  height: 55px; width: auto;line-height: 55px; padding: 20px; text-decoration: none;} 
+.nav ul li span a{ font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #e7e7e7; font-size: 18px;  height: 55px; width: auto;line-height: 55px; padding: 20px 25px;; text-decoration: none;} 
+.nav ul li span a:hover{ font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #663916; font-size: 18px; background:url(imageshome/nav-hover.jpg) repeat-x; } 
+
+.nav-foot { background:url(imageshome/nav.jpg) repeat-x; width: 960px; height: 55px; width: auto;}
+.nav-foot ul { padding:0; margin: 0; }
+.nav-foot ul li { list-style: none; float: left; background:url(imageshome/separator.jpg) no-repeat right; height: 54px;} 
+.nav-foot ul ri { list-style: none; float: right; background:url(imageshome/separator.jpg) no-repeat right; height: 54px;} 
+.nav-foot ul ri span { font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #e7e7e7; font-size: 14px;  height: 55px; width: auto;line-height: 55px; padding: 20px; text-decoration: none;} 
+.nav-foot ul li span a{ font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #e7e7e7; font-size: 15px;  height: 55px; width: auto;line-height: 55px; padding: 20px 15px;; text-decoration: none;} 
+.nav-foot ul li span a:hover{ font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; color: #663916; font-size: 15px; background:url(imageshome/nav-hover.jpg) repeat-x; } 
+
+.button { width: 278px; height: 60px; float: right; margin-right: 40px; margin-bottom: 20px;}
+.down { background:url(imageshome/down.png) no-repeat; margin: auto; height: 52px; width: 108px;}	
+.content { margin:auto; width: 960px; height: auto; background:url(imageshome/content.png) repeat-y;}
+.slider { width: 960px; height: 554px; margin: auto;}
+.slides { width: 960px; height: 479px; margin: auto;}
+.sl { float: left; width: 24px; height: 26px; margin-right: 5px;}
+.divider { background:url(imageshome/divider.png); width: 960px; height: 13px;}
+.left { float: left; width: 544px; height: auto; padding: 10px;}
+.right { float: left; width: 375px; height: auto; padding: 10px;}
+.left2 { float: left; width: 450px; height: auto; padding: 10px;}
+
+.video { background:url(imageshome/video.png) no-repeat; width: 512px; height: 301px; padding: 10px; margin-top: 15px;}
+.test-pic { float: left; width: 62px; height: 62px; border: 5px solid #dae2b1; margin-right: 20px;}
+.testi { float: left; width: 260px; height: auto;}
+.quote1 { background:url(imageshome/quote1.jpg) no-repeat; width: 23px; height: 18px; position:absolute; top: 10; left: 10;}
+.quote2 { background:url(imageshome/quote2.jpg) no-repeat; width: 23px; height: 18px; float: left;}
+p { text-indent: 30px; padding: 0; margin-top: 5px; margin-bottom: 0px;}
+.featured { width: 310px; height: auto; float: left;}
+.partner { float: left; width: auto; height: auto; margin-left: 20px; margin-right: 5px;}
+.partner img {  height: 80px; }
+
+.footer { width: 960px; height: auto; margin-top: 20px; margin-bottom: 20px;}
+.footer-links {float: left; width: 220px; background: url(imageshome/divider2.png) no-repeat right; padding-left: 10px;}
+.footer-links li{ list-style:none;}
+.footer-facebook {float: left; width: 270px; background: url(imageshome/divider2.png) no-repeat right ; padding-left: 10px;}
+.footer-post {float: left; width: 210px; background: url(imageshome/divider2.png) no-repeat right; padding-left: 10px;}
+.footer-post li {list-style:none;}
+.footer-contact {float: left; width: 220px; *background: url(imageshome/divider2.png) no-repeat right; padding-left: 10px;}
+.footer-contact li{list-style: none;}
+.social { float: left; margin-right: 10px; width: 39px; height: 36px; margin-top: 5px; margin-bottom: 5px;}
+
