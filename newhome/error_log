@@ -1,0 +1,4 @@
+[16-Oct-2013 10:07:31 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home2/shantiom/public_html/sandbox/newhome/index.php on line 2
+[16-Oct-2013 20:42:58 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home2/shantiom/public_html/sandbox/newhome/index.php on line 2
+[16-Oct-2013 22:35:33 America/Chicago] PHP Parse error:  syntax error, unexpected $end in /home2/shantiom/public_html/sandbox/newhome/index.php on line 261
+[16-Oct-2013 23:13:19 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home2/shantiom/public_html/sandbox/newhome/index.php on line 156
